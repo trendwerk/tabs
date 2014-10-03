@@ -15,8 +15,8 @@ class TP_Tabs {
 	 * Enqueue scripts
 	 */
 	function enqueue_scripts() {
-		wp_enqueue_style( 'tp-tabs', get_stylesheet_directory_uri() . '/assets/plugins/tabs/sass/tabs.css' );
-		wp_enqueue_script( 'tp-tabs', get_stylesheet_directory_uri() . '/assets/plugins/tabs/js/Tabs.js', array( 'jquery' ) );
+		wp_enqueue_script( 'tp-tabs', plugins_url( 'assets/js/tabs.js', __FILE__ ), array( 'jquery' ) );
+		wp_enqueue_style( 'tp-tabs', plugins_url( 'assets/sass/tabs.css', __FILE__ ) );
 	}
 	
 	/**
