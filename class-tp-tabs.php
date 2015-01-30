@@ -2,6 +2,13 @@
 /**
  * Plugin Name: Tabs
  * Description: JavaScript tabs for WordPress. Use in templates or with shortcodes.
+ *
+ * Plugin URI: https://github.com/trendwerk/tabs
+ * 
+ * Author: Trendwerk
+ * Author URI: https://github.com/trendwerk
+ * 
+ * Version: 1.0.0
  */
 
 class TP_Tabs {

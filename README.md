@@ -3,6 +3,19 @@ Tabs
 
 JavaScript tabs for WordPress. Use in templates or with shortcodes.
 
+## Installation
+If you're using Composer to manage WordPress, add this plugin to your project's dependencies. Run:
+```sh
+composer require trendwerk/tabs 1.0.0
+```
+
+Or manually add it to your `composer.json`:
+```json
+"require": {
+	"trendwerk/tabs": "1.0.0"
+},
+```
+
 ## Usage
 
 ### Shortcode
@@ -25,29 +38,31 @@ If you're using Emmet, you can use the following code to create 3 tabs
 	
 If you're still using HTML, use this to use tabs in your template
 
-	<div class="tabs">
+```html
+<div class="tabs">
 
-		<a class="tab" href="#tab1">
-			Tab 1
-		</a>
+	<a class="tab" href="#tab1">
+		Tab 1
+	</a>
 
-		<a class="tab" href="#tab2">
-			Tab 2
-		</a>
+	<a class="tab" href="#tab2">
+		Tab 2
+	</a>
 
+</div>
+
+<div class="tab-content-wrapper">
+
+	<div id="tab1" class="tab-content">
+		This is tab 1 content. Of course you can fill this with amazing dynamic content!
 	</div>
-	
-	<div class="tab-content-wrapper">
 
-		<div id="tab1" class="tab-content">
-			This is tab 1 content. Of course you can fill this with amazing dynamic content!
-		</div>
-
-		<div id="tab2" class="tab-content">
-			This content belongs to the second tab
-		</div>
-
+	<div id="tab2" class="tab-content">
+		This content belongs to the second tab
 	</div>
+
+</div>
+```
 
 ## Options
 
