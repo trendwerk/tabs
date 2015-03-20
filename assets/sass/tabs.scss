@@ -7,6 +7,7 @@
 .tabs {
 	clear: both;
 	float: left;
+	position: relative
 	width: 100%;
 
 	.tab {
@@ -20,8 +21,6 @@
 		line-height: 32px;
 		margin-bottom: -1px;
 		padding: 0 13px;
-		position: relative;
-		z-index: 2;
 
 		&:last-child { 
 			border-right: 1px solid #CCC;
@@ -39,15 +38,13 @@
 .tab-content-wrapper {
 
 	.tab-content {
-		@include border-box;
 		border: 1px solid #CCC;
+		box-sizing: border-box;
 		clear: both;
 		float: left;
 		height: auto;
 		padding: 20px;
 		margin-bottom: 20px;		
-		position: relative;
-		z-index: 1;
 		width: 100%;
 	}
 

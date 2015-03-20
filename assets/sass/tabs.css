@@ -1,6 +1,7 @@
 .tabs {
 	clear: both;
 	float: left;
+	position: relative;
 	width: 100%;
 }
 
@@ -15,8 +16,6 @@
 		line-height: 32px;
 		margin-bottom: -1px;
 		padding: 0 13px;
-		position: relative;
-		z-index: 2;
 	}
 
 		.tabs .tab:last-child {
@@ -29,16 +28,12 @@
 		}
 
 .tab-content-wrapper .tab-content {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
 	border: 1px solid #CCC;
+	box-sizing: border-box;
 	clear: both;
 	float: left;
 	height: auto;
 	padding: 20px;
 	margin-bottom: 20px;
-	position: relative;
-	z-index: 1;
 	width: 100%;
 }
