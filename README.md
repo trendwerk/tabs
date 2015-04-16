@@ -69,9 +69,13 @@ If you're still using HTML, use this to use tabs in your template
 ### Link
 You can also add a tab that just points to a link
 
-	[tab label="About us" link="http://www.my-website.com/about-us/" /]
+```
+[tab label="About us" link="http://www.my-website.com/about-us/" /]
+```
 	
 ### Link relations
 Maybe the link is external or you don't want to follow the link
 
-	[tab label="About us" link="http://www.my-website.com/about-us/" rel="external" /]
+```
+[tab label="About us" link="http://www.my-website.com/about-us/" rel="external" /]
+```
